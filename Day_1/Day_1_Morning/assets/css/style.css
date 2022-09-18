@@ -1,0 +1,167 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+     padding-bottom: 40px;
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #483D8B;
+    padding: 10px;
+}
+
+.header-title{
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+a{
+    color: #483D8B;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* .intro-content-section-1{
+
+} */
+
+.intro-content-section-2{
+ display: none;
+}
+
+.entity-layer{
+    margin-top: 35px;
+}
+
+.title-bar p{
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 15px;
+}
+
+.entity-title{
+    margin:0;
+    font-size: 15px;
+}
+
+.entity-title-1{
+    font-size: 15px;
+}
+
+.single-entity{
+    margin-top: 20px;
+}
+
+.entity-date{
+    margin :0;
+    font-size: 13px;
+    color: #373737;
+}
+
+.entity-description{
+    margin: 0;
+    font-size: 15px;
+    color: #373737;
+}
+
+ul{
+    margin-top: 8px;
+}
+
+ul li{
+    margin-top: 5px;
+}
+
+.entity-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-bar{
+ background-color: #483D8B;
+ padding: 5px 10px;
+ border-radius: 5px;
+}
+
+.about-me-layer{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact-entity{
+ margin-top: 20px;
+ align-items: center;
+ text-align: center;
+}
+
+.contact-entity a{
+    margin-right: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.quick-access-entity-layer{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.quick-access-entity-layer a{
+    border: 1px solid #483D8B;
+    border-width: 2px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.quick-access-entity-layer a:hover{
+    /* border: 1px solid #483D8B; */
+    background-color: #483D8B;
+    color: white;
+    transition:ease;
+    
+    transition-duration: .4s;
+}
+
+#copyright{
+    text-align: center;
+    color: #7a7a7a;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 50px;
+}

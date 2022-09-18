@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/mediaQuery.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/partice.js"></script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<!-- <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+    <title>Dashboard</title>
+</head>
+<body>
+        <nav class="navbar">
+            <img src="https://www.static-src.com/frontend/static/img/logo-blibli-white.f8255fc.svg" class="logo-brand" width="100" alt="logo" srcset="">
+            <ul class="nav-list">
+                <li>Home</li>
+                <li>Contact</li>
+                <li>Product</li>
+                <li>About</li>
+                <li>Teams</li>
+            </ul>
+            <div class="search-outer-box">
+                <input type="search" class="search-box" name="search" placeholder="Search product">
+                <button class="search-btn" type="button"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+        </nav>
+
+            <!-- <img src="https://www.static-src.com/frontend/static/img/promowisata.c811b2f.svg" class="animation-img" alt=""> -->
+
+       <section>
+            <div class="home-container">
+                <div class="side-bar">
+                        <form action="" class="outer-card" id="sticky-card">
+                            <h2 class="form-heading">Add new product</h2>
+                            <div class="form-control">
+                                 <input type="text" class="form-control-field" name="mobile-name" onblur="alert('Hi ' + document.getElementById('mobile-name').value)" placeholder="Enter Mobile Name" id="mobile-name">
+                             </div>
+                             <div class="form-control">
+                                 <input type="text" class="form-control-field" name="brand" placeholder="Enter brand">
+                             </div>
+                             <div class="form-control">
+                                 <input type="text" class="form-control-field" name="image" placeholder="Enter image url">
+                             </div>
+                             <div class="form-control">
+                                 <input type="text" class="form-control-field" name="rating" placeholder="Rating eg: (4.6)">
+                             </div>
+                             <div class="form-control">
+                                 <select class="form-control-field-select" name="ram">
+                                     <option value="null">Select RAM Size</option>
+                                     <option value="2 GB">2 GB RAM</option>
+                                     <option value="4 GB">4 GB RAM</option>
+                                     <option value="6 GB">6 GB RAM</option>
+                                     <option value="8 GB">8 GB RAM</option>
+                                     <option value="16 GB">16 GB RAM</option>
+                                 </select>
+                             </div>
+                             <div class="form-control">
+                                 <select class="form-control-field-select" name="rom">
+                                     <option value="null">Select ROM Size</option>
+                                     <option value="64 GB">64 GB RAM</option>
+                                     <option value="128 GB">128 GB RAM</option>
+                                 </select>
+                             </div>
+                             <div class="form-control">
+                                 <input type="text" class="form-control-field" name="price" placeholder="Enter price eg: (500.00)">
+                             </div>
+                             <button type="submit" class="action-button">Add Product</button><br>
+                         </form>
+                </div>
+                <div class="right-content">
+                    <div class="outer-card">
+                        <div class="product-section" id="product-sec"></div>
+                    </div>
+                </div>
+            </div>
+       </section>
+
+       <script src="assets/js/product.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1200px) {
+    .about-me-layer {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .container{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+  }
+
+  @media only screen and (max-width: 500px) {
+    .entity-header{
+      display: block;
+  }
+
+  .entity-header-col-2{
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  }
